@@ -1,4 +1,4 @@
-package br.ufpe.cin.if710.calculadora
+package br.ufpe.cin.android.calculadora
 
 import org.junit.Test
 

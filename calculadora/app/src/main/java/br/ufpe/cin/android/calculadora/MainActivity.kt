@@ -1,14 +1,15 @@
-package br.ufpe.cin.if710.calculadora
+package br.ufpe.cin.android.calculadora
 
-import android.app.Activity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
 
     //Como usar a função:
     // eval("2+2") == 4.0

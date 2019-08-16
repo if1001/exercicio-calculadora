@@ -2,12 +2,13 @@
 
 Esta tarefa envolve os conceitos básicos de projetos Android, UI widgets, e mudanças de configuração. 
 Faça um clone ou fork deste projeto, siga os passos na ordem sugerida e marque mais abaixo, na sua resposta, quais os passos completados. 
-Para entregar o exercício, responda o [formulário de entrega](https://docs.google.com/forms/d/e/1FAIpQLSeB2Eg5moSifh3zZ6KbILz0WpUwxRdaZFaEuwfS1YMQSDMK5A/viewform) até 04/09/2018, às 23h59.
+Para entregar o exercício, responda o [formulário de entrega](https://forms.gle/xqVK5c7jkyPQmywm9) até 23/08/2019, às 23h59.
 
-  1. Associe listeners para cada botão da calculadora, de forma a inserir a informação no `EditText` com *id* `text_calc`;
-  2. Ao clicar no botão `=`, é feita a avaliação da expressão, armazenada em `text_info`;
-  3. Ao inserir expressões inválidas, exiba um `Toast` ou `Dialog` informando erro, ao invés de quebrar a aplicação; 
-  4. Ao ocorrerem mudanças de configuração, a expressão digitada e o último valor calculado devem permanecer visíveis na aplicação.
+  1. Altere o arquivo de layout `activity_main.xml` para passar a usar `ConstraintLayout` ao invés de `LinearLayout`. Não altere nenhum *id* dos _widgets_;
+  2. Associe listeners para cada botão da calculadora, de forma a inserir a informação no `EditText` com *id* `text_calc`;
+  3. Ao clicar no botão `=`, é feita a avaliação da expressão, armazenada em `text_info`;
+  4. Ao inserir expressões inválidas, exiba um `Toast` ou `Dialog` informando erro, ao invés de quebrar a aplicação; 
+  5. Ao ocorrerem mudanças de configuração, a expressão digitada e o último valor calculado devem permanecer visíveis na aplicação.
 
 ---
 
@@ -26,3 +27,4 @@ Para entregar o exercício, responda o [formulário de entrega](https://docs.goo
 | 2 | **não** |
 | 3 | **não** |
 | 4 | **não** |
+| 5 | **não** |

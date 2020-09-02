@@ -2,7 +2,7 @@
 
 Esta tarefa envolve os conceitos básicos de projetos Android, UI widgets, e mudanças de configuração. 
 Faça um clone ou fork deste projeto, siga os passos na ordem sugerida e marque mais abaixo, na sua resposta, quais os passos completados. 
-Para entregar o exercício, responda o [formulário de entrega](https://forms.gle/xqVK5c7jkyPQmywm9) até 23/08/2019, às 23h59.
+Para entregar o exercício, envie o link do seu repositório via Google Classroom até o prazo determinado. 
 
   1. Altere o arquivo de layout `activity_main.xml` para passar a usar `ConstraintLayout` ao invés de `LinearLayout`. Não altere nenhum *id* dos _widgets_;
   2. Associe listeners para cada botão da calculadora, de forma a inserir a informação no `EditText` com *id* `text_calc`;
